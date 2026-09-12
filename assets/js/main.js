@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initBackToTop();
     initNewsletterForm();
     initArticleTools();
+    initClientSearch();
 });
 
 /**
@@ -18,7 +19,6 @@ function initDohaClock() {
 
     function updateTime() {
         const now = new Date();
-        // Force Qatar timezone (Asia/Qatar, UTC+3)
         const options = {
             timeZone: 'Asia/Qatar',
             hour: '2-digit',
@@ -29,7 +29,6 @@ function initDohaClock() {
         try {
             clockEl.textContent = new Intl.DateTimeFormat('en-US', options).format(now);
         } catch (e) {
-            // Fallback calculation for older engines
             const utc = now.getTime() + (now.getTimezoneOffset() * 60000);
             const dohaDate = new Date(utc + (3600000 * 3));
             clockEl.textContent = dohaDate.toLocaleTimeString();
@@ -96,7 +95,7 @@ function initCurrencyConverter() {
     }
 
     qarInput.addEventListener('input', calculate);
-    calculate(); // initial run
+    calculate();
 }
 
 /**
@@ -162,7 +161,7 @@ function initArticleTools() {
     const articleBody = document.getElementById('article-content-body');
     if (!articleBody) return;
 
-    let currentFontSize = 1.12; // rem
+    let currentFontSize = 1.12;
 
     const btnInc = document.getElementById('font-increase');
     const btnDec = document.getElementById('font-decrease');
@@ -210,7 +209,6 @@ function initArticleTools() {
         });
     }
 
-    // Audio narration via Web Speech API
     if (btnListen && 'speechSynthesis' in window) {
         let isSpeaking = false;
         btnListen.addEventListener('click', () => {
@@ -239,5 +237,66 @@ function initArticleTools() {
                 btnListen.classList.add('btn-warning');
             }
         });
+    }
+}
+
+/**
+ * Client-Side Search Engine for Static Hosting
+ */
+function initClientSearch() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const query = urlParams.get('q');
+    const searchContainer = document.querySelector('.col-lg-8');
+    const searchInput = document.querySelector('input[name="q"]');
+
+    if (searchInput && query) {
+        searchInput.value = query;
+    }
+
+    if (window.location.pathname.includes('search') && query && searchContainer) {
+        fetch('data/articles.json')
+            .then(res => res.json())
+            .then(articles => {
+                const q = query.toLowerCase().trim();
+                const matches = articles.filter(a => {
+                    const str = (a.title_en + ' ' + a.title_ml + ' ' + a.summary_en + ' ' + a.summary_ml + ' ' + a.category).toLowerCase();
+                    return str.includes(q);
+                });
+
+                if (matches.length > 0) {
+                    let html = `<div class="mb-3 text-muted">Found <strong class="text-maroon">${matches.length}</strong> matching stories for "${query}":</div><div class="row g-3">`;
+                    matches.forEach(art => {
+                        const articleUrl = `article-${art.id}.html`;
+                        html += `
+                        <div class="col-12">
+                            <div class="news-card p-3 d-flex flex-column flex-md-row gap-3">
+                                <div class="rounded overflow-hidden flex-shrink-0" style="width: 180px; height: 120px;">
+                                    <img src="${art.image}" alt="" class="w-100 h-100 object-fit-cover">
+                                </div>
+                                <div class="flex-grow-1">
+                                    <div class="mb-1">
+                                        <span class="badge bg-maroon me-2">${art.category.toUpperCase()}</span>
+                                        <small class="text-muted"><i class="far fa-calendar me-1"></i>${art.date}</small>
+                                    </div>
+                                    <h5 class="fw-bold mb-1">
+                                        <a href="${articleUrl}" class="text-decoration-none text-dark title-hover">${art.title_en}</a>
+                                    </h5>
+                                    <p class="text-muted small mb-0">${art.summary_en}</p>
+                                </div>
+                            </div>
+                        </div>`;
+                    });
+                    html += `</div>`;
+                    searchContainer.innerHTML = html;
+                } else {
+                    searchContainer.innerHTML = `
+                        <div class="text-center py-5 bg-white rounded border">
+                            <i class="fas fa-search fa-3x text-muted mb-3"></i>
+                            <h4>No matching articles found for "${query}"</h4>
+                            <p class="text-muted">Try searching with different keywords such as "visa", "Qatar", "gold", or "jobs".</p>
+                        </div>`;
+                }
+            })
+            .catch(() => {});
     }
 }
