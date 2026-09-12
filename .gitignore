@@ -3,4 +3,5 @@
 Thumbs.db
 *.log
 scratch/
+node_modules/
 .system_generated/

@@ -1,0 +1,24 @@
+{
+  "name": "newsatdoha",
+  "version": "1.0.0",
+  "description": "> **Official web portal for [News At Doha (@newsatdoha2018)](https://www.facebook.com/newsatdoha2018) — Connecting 12,200+ Qatar residents & expatriates with verified news, visa updates, currency exchange rates, and community announcements.**",
+  "main": "build_static.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://accescube@github.com/accescube/newsatdoha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/accescube/newsatdoha/issues"
+  },
+  "homepage": "https://github.com/accescube/newsatdoha#readme",
+  "dependencies": {
+    "firebase-tools": "^15.30.0"
+  }
+}
