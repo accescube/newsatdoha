@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "newsatdoha"
+    "default": "accescube-d571b",
+    "newsatdoha": "newsatdoha"
   }
 }
