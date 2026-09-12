@@ -33,6 +33,18 @@
     
     <!-- Custom Theme CSS -->
     <link rel="stylesheet" href="http://localhost:8080/assets/css/style.css">
+
+    <!-- Google tag (gtag.js) Firebase Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YLY5FNJ70W"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YLY5FNJ70W');
+    </script>
+
+    <!-- Firebase App & Analytics SDK Module -->
+    <script type="module" src="http://localhost:8080/assets/js/firebase-config.js"></script>
 </head>
 <body class="lang-en">
 
@@ -44,7 +56,7 @@
                 <span class="d-inline-flex align-items-center text-maroon fw-semibold">
                     <span class="pulse-dot me-1"></span>
                     <i class="fas fa-clock me-1 text-muted"></i>
-                    <span id="doha-clock">09:54:43 PM</span> <span class="badge bg-maroon-subtle text-maroon ms-1">AST</span>
+                    <span id="doha-clock">10:03:22 PM</span> <span class="badge bg-maroon-subtle text-maroon ms-1">AST</span>
                 </span>
                 <span class="text-muted d-none d-md-inline">
                     <i class="far fa-calendar-alt me-1"></i>

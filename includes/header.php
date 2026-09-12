@@ -49,6 +49,18 @@ $langSwitchUrl = '?' . http_build_query($queryParams);
     
     <!-- Custom Theme CSS -->
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
+
+    <!-- Google tag (gtag.js) Firebase Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YLY5FNJ70W"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-YLY5FNJ70W');
+    </script>
+
+    <!-- Firebase App & Analytics SDK Module -->
+    <script type="module" src="<?= base_url('assets/js/firebase-config.js') ?>"></script>
 </head>
 <body class="<?= $currentLang === 'ml' ? 'lang-ml' : 'lang-en' ?>">
 
