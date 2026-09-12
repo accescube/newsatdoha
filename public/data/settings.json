@@ -129,12 +129,13 @@
     }
   ],
   "firebase": {
-    "apiKey": "AIzaSyBZ2Iuyl6yBf_Ut0rFhs59XufTYqiRo2Ko",
-    "authDomain": "newsatdoha.firebaseapp.com",
-    "projectId": "newsatdoha",
-    "storageBucket": "newsatdoha.firebasestorage.app",
-    "messagingSenderId": "551571600416",
-    "appId": "1:551571600416:web:92b6a2e6d5ee7773d53845",
-    "measurementId": "G-YLY5FNJ70W"
+    "projectId": "accescube-d571b",
+    "appId": "1:896940040254:web:3e229511971474df19716f",
+    "storageBucket": "accescube-d571b.firebasestorage.app",
+    "apiKey": "AIzaSyA2Ht_CHBaoxMKtOP21ihRqVWBVPpxO14c",
+    "authDomain": "accescube-d571b.firebaseapp.com",
+    "messagingSenderId": "896940040254",
+    "measurementId": "G-BEH3Q3XQX5",
+    "projectNumber": "896940040254"
   }
 }

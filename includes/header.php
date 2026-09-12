@@ -51,12 +51,12 @@ $langSwitchUrl = '?' . http_build_query($queryParams);
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
 
     <!-- Google tag (gtag.js) Firebase Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YLY5FNJ70W"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BEH3Q3XQX5"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-YLY5FNJ70W');
+      gtag('config', 'G-BEH3Q3XQX5');
     </script>
 
     <!-- Firebase App & Analytics SDK Module -->
