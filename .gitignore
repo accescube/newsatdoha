@@ -1,0 +1,6 @@
+# Environment & Temp Files
+.DS_Store
+Thumbs.db
+*.log
+scratch/
+.system_generated/

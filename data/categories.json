@@ -1,0 +1,62 @@
+[
+  {
+    "id": "qatar",
+    "name_en": "Qatar News",
+    "name_ml": "ഖത്തർ വാർത്തകൾ",
+    "slug": "qatar",
+    "description_en": "Breaking national, municipal and government announcements across Qatar",
+    "description_ml": "ഖത്തറിലെ പ്രധാന വാർത്തകളും ഭരണകൂട അറിയിപ്പുകളും",
+    "icon": "fa-landmark",
+    "badge_color": "#8A1538"
+  },
+  {
+    "id": "expat",
+    "name_en": "Expat & Visas",
+    "name_ml": "പ്രവാസി & വിസ",
+    "slug": "expat",
+    "description_en": "Residence permits, Metrash2 services, labor laws, travel advisories and expatriate welfare",
+    "description_ml": "ഖത്തർ പ്രവാസികൾക്കുള്ള വിസ, മെട്രാഷ്2, നിയമ അറിയിപ്പുകൾ",
+    "icon": "fa-id-card",
+    "badge_color": "#0d6efd"
+  },
+  {
+    "id": "business",
+    "name_en": "Business & Gold",
+    "name_ml": "ബിസിനസ് & സ്വർണ്ണം",
+    "slug": "business",
+    "description_en": "Qatar economy, gold market rates, fuel prices, stock market and investments",
+    "description_ml": "ഖത്തറിലെ സാമ്പത്തികം, സ്വർണ്ണവില, ഇന്ധനവില, വ്യാപാര വാർത്തകൾ",
+    "icon": "fa-chart-line",
+    "badge_color": "#b8860b"
+  },
+  {
+    "id": "community",
+    "name_en": "Community & Culture",
+    "name_ml": "കമ്മ്യൂണിറ്റി",
+    "slug": "community",
+    "description_en": "Expatriate community events, Indian Cultural Centre, Katara cultural happenings and celebrations",
+    "description_ml": "ഖത്തറിലെ പ്രവാസി കൂട്ടായ്മകൾ, സാംസ്കാരിക പരിപാടികൾ, ഉത്സവങ്ങൾ",
+    "icon": "fa-users",
+    "badge_color": "#198754"
+  },
+  {
+    "id": "sports",
+    "name_en": "Sports",
+    "name_ml": "കായികം",
+    "slug": "sports",
+    "description_en": "Qatar Stars League, Aspire Zone, Formula 1 Qatar GP, football and athletics",
+    "description_ml": "ഖത്തർ സ്റ്റാർസ് ലീഗ്, അന്താരാഷ്ട്ര കായിക മേളകൾ, സ്പോർട്സ് വാർത്തകൾ",
+    "icon": "fa-trophy",
+    "badge_color": "#dc3545"
+  },
+  {
+    "id": "jobs",
+    "name_en": "Jobs & Careers",
+    "name_ml": "തൊഴിലവസരങ്ങൾ",
+    "slug": "jobs",
+    "description_en": "Job vacancies, walk-in interviews, ministry recruitment alerts in Doha",
+    "description_ml": "ഖത്തറിലെ പ്രമുഖ സ്ഥാപനങ്ങളിലെ തൊഴിലവസരങ്ങളും റിക്രൂട്ട്മെന്റ് വിവരങ്ങളും",
+    "icon": "fa-briefcase",
+    "badge_color": "#6f42c1"
+  }
+]

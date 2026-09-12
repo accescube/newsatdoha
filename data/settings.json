@@ -1,0 +1,131 @@
+{
+  "site_name": "NEWS @ DOHA",
+  "site_subname": "News At Doha",
+  "site_tagline_en": "Your Trusted Source for Qatar & Doha News, Expat Living & Community Updates",
+  "site_tagline_ml": "ഖത്തറിലെ പ്രധാന വാർത്തകൾ കൃത്യമായി അറിയാനുള്ള ഇടം.",
+  "facebook_url": "https://www.facebook.com/newsatdoha2018",
+  "facebook_likes": "12,213",
+  "whatsapp_channel": "https://whatsapp.com/channel/newsatdoha",
+  "instagram_url": "https://www.instagram.com/newsatdoha",
+  "x_url": "https://twitter.com/newsatdoha",
+  "youtube_url": "https://www.youtube.com/@newsatdoha",
+  "contact_email": "editorial@newsatdoha.com",
+  "contact_phone": "+974 4488 2018",
+  "admin_pin": "doha2026",
+  "breaking_news_enabled": true,
+  "breaking_news_items": [
+    {
+      "en": "Ministry of Interior Qatar issues advisory on updated Metrash2 residency services for sponsors and families.",
+      "ml": "ഖത്തർ ആഭ്യന്തര മന്ത്രാലയം മെട്രാഷ്2 റസിഡൻസി സേവനങ്ങളിൽ പുതിയ മാർഗ്ഗനിർദ്ദേശങ്ങൾ പുറപ്പെടുവിച്ചു."
+    },
+    {
+      "en": "Ashghal announces temporary diversion on Sabah Al Ahmad Corridor for scheduled infrastructure maintenance.",
+      "ml": "സബാഹ് അൽ അഹമ്മദ് കോറിഡോറിൽ റോഡ് ഗതാഗത ക്രമീകരണം ഏർപ്പെടുത്തിയതായി അഷ്ഗാൽ."
+    },
+    {
+      "en": "Hamad International Airport reports record passenger traffic with over 14.5 million travelers in recent quarter.",
+      "ml": "ഹമദ് അന്താരാഷ്ട്ര വിമാനത്താവളത്തിൽ റെക്കോർഡ് യാത്രക്കാർ; കഴിഞ്ഞ പാദത്തിൽ 1.45 കോടിയിലധികം പേർ."
+    },
+    {
+      "en": "Qatar Energy updates official monthly fuel prices for Premium, Super Petrol, and Diesel.",
+      "ml": "ഖത്തർ എനർജി പ്രീമിയം, സൂപ്പർ പെട്രോൾ, ഡീസൽ എന്നിവയുടെ പുതിയ ഇന്ധന നിരക്കുകൾ പ്രഖ്യാപിച്ചു."
+    }
+  ],
+  "exchange_rates": {
+    "base": "QAR",
+    "updated": "Today",
+    "rates": {
+      "INR": 22.85,
+      "PKR": 76.45,
+      "BDT": 32.55,
+      "PHP": 15.68,
+      "NPR": 36.56,
+      "LKR": 82.10,
+      "USD": 0.274,
+      "EUR": 0.251,
+      "GBP": 0.215,
+      "AED": 1.008,
+      "SAR": 1.030
+    }
+  },
+  "gold_rates_doha": {
+    "updated": "Today",
+    "currency": "QAR",
+    "gram_24k": 312.50,
+    "gram_22k": 290.00,
+    "gram_18k": 237.25,
+    "sovereign_8g": 2320.00
+  },
+  "fuel_prices_doha": {
+    "premium_91": "1.95",
+    "super_95": "2.10",
+    "diesel": "2.05",
+    "currency": "QAR/L"
+  },
+  "doha_weather": {
+    "temp": "34°C",
+    "condition_en": "Sunny & Clear",
+    "condition_ml": "തെളിഞ്ഞ ആകാശം",
+    "humidity": "58%",
+    "wind": "14 km/h ESE"
+  },
+  "prayer_times_doha": {
+    "fajr": "04:12 AM",
+    "sunrise": "05:28 AM",
+    "dhuhr": "11:42 AM",
+    "asr": "03:08 PM",
+    "maghrib": "05:55 PM",
+    "isha": "07:25 PM"
+  },
+  "emergency_helplines": [
+    {
+      "name_en": "Police, Ambulance & Fire Services",
+      "name_ml": "പോലീസ്, ആംബുലൻസ്, ഫയർഫോഴ്സ്",
+      "number": "999",
+      "badge": "24/7 Emergency",
+      "icon": "fa-phone-alt"
+    },
+    {
+      "name_en": "Traffic & Patrols General Directorate",
+      "name_ml": "ട്രാഫിക് & പട്രോൾ വകുപ്പ്",
+      "number": "+974 234 4444",
+      "badge": "Traffic",
+      "icon": "fa-car"
+    },
+    {
+      "name_en": "Metrash2 Helpdesk & MOI Services",
+      "name_ml": "മെട്രാഷ്2 സഹായ കേന്ദ്രം (MOI)",
+      "number": "+974 234 2000",
+      "badge": "Technical",
+      "icon": "fa-laptop"
+    },
+    {
+      "name_en": "Hamad Medical Corporation (Nesma'ak)",
+      "name_ml": "ഹമദ് മെഡിക്കൽ കോർപ്പറേഷൻ (HMC)",
+      "number": "16060",
+      "badge": "Healthcare",
+      "icon": "fa-hospital"
+    },
+    {
+      "name_en": "Ministry of Labour Expat Grievance",
+      "name_ml": "തൊഴിൽ മന്ത്രാലയം പരാതി പരിഹാരം",
+      "number": "16008",
+      "badge": "Labour",
+      "icon": "fa-user-shield"
+    },
+    {
+      "name_en": "Indian Embassy Doha Helpdesk & ICBF",
+      "name_ml": "ഇന്ത്യൻ എംബസി ദോഹ & ICBF ഹെൽപ്പ്‌ലൈൻ",
+      "number": "+974 4425 5777",
+      "badge": "Consular",
+      "icon": "fa-building"
+    },
+    {
+      "name_en": "Kahramaa Water & Electricity Call Center",
+      "name_ml": "കഹ്റമ വൈദ്യുതി & ജല അതോറിറ്റി",
+      "number": "991",
+      "badge": "Utilities",
+      "icon": "fa-bolt"
+    }
+  ]
+}
