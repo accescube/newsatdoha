@@ -40,21 +40,21 @@
       "BDT": 32.55,
       "PHP": 15.68,
       "NPR": 36.56,
-      "LKR": 82.10,
+      "LKR": 82.1,
       "USD": 0.274,
       "EUR": 0.251,
       "GBP": 0.215,
       "AED": 1.008,
-      "SAR": 1.030
+      "SAR": 1.03
     }
   },
   "gold_rates_doha": {
     "updated": "Today",
     "currency": "QAR",
-    "gram_24k": 312.50,
-    "gram_22k": 290.00,
+    "gram_24k": 312.5,
+    "gram_22k": 290,
     "gram_18k": 237.25,
-    "sovereign_8g": 2320.00
+    "sovereign_8g": 2320
   },
   "fuel_prices_doha": {
     "premium_91": "1.95",
@@ -127,5 +127,14 @@
       "badge": "Utilities",
       "icon": "fa-bolt"
     }
-  ]
+  ],
+  "firebase": {
+    "apiKey": "AIzaSyBZ2Iuyl6yBf_Ut0rFhs59XufTYqiRo2Ko",
+    "authDomain": "newsatdoha.firebaseapp.com",
+    "projectId": "newsatdoha",
+    "storageBucket": "newsatdoha.firebasestorage.app",
+    "messagingSenderId": "551571600416",
+    "appId": "1:551571600416:web:92b6a2e6d5ee7773d53845",
+    "measurementId": "G-YLY5FNJ70W"
+  }
 }
