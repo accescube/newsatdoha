@@ -1,0 +1,14 @@
+[
+    {
+        "email": "reader@example.com",
+        "phone": "+974 5512 3456",
+        "subscribed_at": "2026-09-10 10:15:00",
+        "type": "whatsapp_newsletter"
+    },
+    {
+        "email": "",
+        "phone": "+97455998877",
+        "subscribed_at": "2026-09-12 20:57:56",
+        "type": "web_newsletter"
+    }
+]
